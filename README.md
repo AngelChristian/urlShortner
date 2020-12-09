@@ -1,6 +1,7 @@
 # urlShortner
 
 This is an App which helps you create short url,which can be used or shared to easily access your long url.
+It is created using nodejs,mongodb,bootstrap,html,css,ejs,tested by jest And hosted on heroku.
 
 ## Available APIs
 
@@ -86,9 +87,13 @@ Jest is used,which test as follows:
 
 ## Running it
 
-Just clone the repository, run `npm install` and then `node run start`. That's it :).
+Just clone the repository, run `npm install` and then `node run start`. .
 
 If you want to run it on another port, just run `PORT=3000 node server.js` to run it on port 3000 
+
+Create env file AND create a varible with database link  with name MONGO.
+
+That's it :)
 
 ## Testing it
 
