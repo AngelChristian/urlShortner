@@ -12,6 +12,7 @@
   },
   "author": "Angel Chirstian",
   "license": "ISC",
+  "engines": {"node": "14.15.1"},
   "dependencies": {
     "@sentry/node": "^5.29.0",
     "@sentry/tracing": "^5.29.0",
