@@ -6,11 +6,6 @@ const nanoid = nid.customAlphabet(
 const ShortUrl = require('../models/url');
 
 exports.getIndex = async (req, res) => {
-  try {
-    const shortUrls = await ShortUrl.find();
-  } catch (err) {
-    res.sendStatus(503);
-  }
   res.render('index', {
     customCode: '',
     success: '',
