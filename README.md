@@ -10,7 +10,7 @@ This is an App which helps you create short url,which can be used or shared to e
 
 You can do a GET to `/` to get the home page.
 
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544233/home_iol3tq.png)
 
 
 #### POST '/shortUrls'
@@ -23,7 +23,7 @@ The body must have:
 
 It returns the following:
 on success:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544270/urlsuccess_nxrgnz.png)
 
 on failure:
 STATUS(503) - SERVICE  UNAVAILABLE
@@ -41,10 +41,10 @@ The body must have:
 
 It returns the following:
 on success:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544270/urlsuccess_nxrgnz.png)
 
 on failure:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544319/urlfail_dmtmvo.png)
 
 
 #### GET '/:shortUrl'
@@ -54,10 +54,6 @@ You can do a GET '/:shortUrl' to use the unique link generated to go to the desi
 The request must look like:
 
 GET /12345
-
-It returns the following:
-on success:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
 
 on failure:
 STATUS(503) - SERVICE  UNAVAILABLE
@@ -74,18 +70,18 @@ GET /12345/stats
 
 It returns the following:
 on success:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544385/stats_xehilt.png)
 
 on failure:
 STATUS(404) - NOT FOUND
 
 #### Error Tracking
 sentry.io is used,which reports as follows:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544464/sentry_fl1mvg.png)
 
 #### Tests
 Jest is used,which test as follows:
-![example](https://res.cloudinary.com/angelchristian/image/upload/v1597317752/mail_f4a287.png)
+![example](https://res.cloudinary.com/angelchristian/image/upload/v1607544499/test_usstvt.png)
 
 
 ## Running it
